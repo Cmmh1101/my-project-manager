@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --light: #e4f2ee;
+  --aqua-light: #a3d9d3;
+  --light-blue: #52f2f2;
+  --dark-aqua: #037f8c;
+  --dark: #012623;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: url(/assets/img/mountain.jpg);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.manager-welcome {
+  width: 100%;
+  height: 30%;
+  /* background-image: url(/assets/img/mountain.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.welcome-manager-container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: wrap;
+  background-color: #e4f2eec2;
+}
+
+.manager-quote-area {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.quote-text {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.cite {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+.day-info-area {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.clock-container {
+  width: 30%;
+  padding: 20px;
+}
+
+.clock {
+  color: var(--dark-aqua);
+  font-size: 1.5rem;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+.calendar-container {
+  padding: 20px;
+}
+
+.task-stats-container {
+  padding: 20px;
+}
+
+.task-stats-container {
+  padding: 20px;
+}
+
+/* projects area */
+
+#manager-area {
+  width: 100%;
+  height: 100vh;
+  margin-top: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+.sidebar {
+  width: 12%;
+  height: 100%;
+  background-color: transparent;
+}
+.side-container {
+  width: 90%;
+  height: 100%;
+  background-color: var(--light);
+}
+
+.projects-display {
+  width: 98%;
+  height: 100%;
+  background-color: #e4f2eec2;
+}

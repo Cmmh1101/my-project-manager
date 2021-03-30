@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager Intro</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project-manager.css">
+    <script src="https://kit.fontawesome.com/8ac0d99b55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="welcome-manager" class="manager-welcome">
+        <div class="welcome-manager-container">
+            <div class="day-info-area">
+                <div class="clock-container"><div id="MyClockDisplay" class="clock" onload="showTime()">hola</div></div>
+                <div class="calendar-container">calendar</div>
+                <div class="task-stats-container">Tasks Completed</div>
+                <div class="task-stats-container">Tasks to complete</div>
+            </div>
+            <div class="manager-quote-area">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <!--Where New Quote Appears-->
+                <small id="quote-tags" class="quote-tags"></small>
+                <div class="quote-wrapper" id="quote-return">
+                    <blockquote id="quote-text" class="quote-text">
+                    </blockquote>
+                    <cite id="quote-author" class="cite"></cite>
+                </div>
+                
+                <button type="button" id="gen-quote-btn"><i class="fa fa-refresh" aria-hidden="true" id="get-quote"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar Section -->
+    <section id="manager-area">
+        <div class="container">
+            <div class="sidebar">
+                <div class="side-container">
+                    sidebar
+                </div>
+            </div>
+            <div class="projects-display">
+                projects
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

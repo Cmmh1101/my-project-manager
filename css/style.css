@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Orbitron&display=swap");
+
+:root {
+  --light: #e4f2ee;
+  --aqua-light: #a3d9d3;
+  --light-blue: #52f2f2;
+  --dark-aqua: #037f8c;
+  --dark: #012623;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#welcome {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/mountain.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  width: 800px;
+  height: auto;
+  background-color: #e4f2eec2;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-area {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  background-color: #e4f2eeee;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+.quote-area i {
+  width: 100%;
+  color: var(--dark);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  color: #012623be;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+cite {
+  font-size: 1rem;
+  color: #0126238c;
+  font-style: normal;
+}
+
+#gen-quote-btn {
+  background-color: transparent;
+  border: none;
+}
+
+#gen-quote-btn:focus {
+  outline: none;
+}
+
+.quote-area i.fa-refresh {
+  width: 100%;
+  color: #037e8c65;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.welcome-msg h1 {
+  color: var(--dark);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 100%;
+  color: var(--light-blue);
+  background-color: var(--dark);
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn a {
+  color: var(--light-blue);
+  text-decoration: none;
+}
