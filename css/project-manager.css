@@ -50,6 +50,7 @@ body {
   flex-direction: column;
   text-align: center;
   padding: 10px;
+  border-left: 2px solid var(--dark-aqua);
 }
 
 .quote-text {
@@ -74,27 +75,54 @@ button {
 }
 
 .clock-container {
-  width: 30%;
+  width: 25%;
   padding: 20px;
 }
 
 .clock {
   color: var(--dark-aqua);
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 1.3rem;
   font-family: Orbitron;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
 }
 
 .calendar-container {
+  width: 25%;
   padding: 20px;
+  color: var(--dark-aqua);
+  font-size: 1.3rem;
+  font-family: Orbitron;
+  letter-spacing: 5px;
+  border-left: 2px solid var(--dark-aqua);
 }
 
 .task-stats-container {
+  width: 25%;
   padding: 20px;
+  border-left: 2px solid var(--dark-aqua);
 }
 
-.task-stats-container {
-  padding: 20px;
+.done {
+  color: var(--dark-aqua);
+  font-size: 1.5rem;
+  font-family: Orbitron;
+  letter-spacing: 5px;
+}
+
+.number-done {
+  color: rgb(38, 126, 38);
+}
+
+.due {
+  color: var(--dark-aqua);
+  font-size: 1.5rem;
+  font-family: Orbitron;
+  letter-spacing: 5px;
+}
+
+.number-due {
+  color: rgb(168, 59, 59);
 }
 
 /* projects area */

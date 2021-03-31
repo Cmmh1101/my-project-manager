@@ -30,6 +30,11 @@ function showTime(){
 
 showTime();
 
+// date and time
+
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+
 // random quote genetator
 
 const quoteText = document.getElementById('quote-text'),
